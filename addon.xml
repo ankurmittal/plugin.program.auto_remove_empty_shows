@@ -13,13 +13,12 @@
         <provides>executable</provides>
     </extension>
 
-    <assets>
-    	<icon>icon.png</icon>
-    </assets>
-
     <extension point="xbmc.addon.metadata">
         <summary>Removes TV shows with zero episodes</summary>
         <description>This add-on removes all TV shows from your Kodi library that have no episodes left.</description>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
-</addon>
+</addon>
